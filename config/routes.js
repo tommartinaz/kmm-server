@@ -21,10 +21,6 @@ module.exports = function(app){
 
   app.post('/update/:id', projects.update);
 
-  // CREW ROUTE
-  app.get('/crew', crew.getCrew);
-
-
   // CONTACT MANAGEMENT ROUTES
   app.get('/contacts', contacts.getAll);
 

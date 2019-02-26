@@ -1,5 +1,5 @@
 const knex = require("../db/knex.js");
-const nodemailer = require('nodemailer');
+const uuidv4 = require('uuid');
 const sgMail = require('@sendgrid/mail');
 const { TO_EMAIL_ADDRESS, SENDGRID_API_KEY } = process.env;
 sgMail.setApiKey(SENDGRID_API_KEY);
@@ -38,6 +38,7 @@ module.exports = {
   create: function(req, res){
     knex('contacts')
       .insert({
+        id: uuidv4(),
         name: req.body.name,
         company: req.body.company,
         website: req.body.website,
@@ -68,6 +69,7 @@ module.exports = {
     } = req.body;
     knex('contacts')
       .insert({
+        id: uuidv4(),
         name,
         company,
         website,
