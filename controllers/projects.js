@@ -1,4 +1,5 @@
 const knex = require("../db/knex.js");
+const uuidv4 = require('uuid');
 
 module.exports = {
 
@@ -48,6 +49,7 @@ module.exports = {
 
     knex('projects')
       .insert({
+        id: uuidv4(),
         client_name: req.body.client_name,
         company: req.body.company,
         project_name: req.body.project_name,
