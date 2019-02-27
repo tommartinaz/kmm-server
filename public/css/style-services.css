@@ -86,3 +86,7 @@
   border-top: 2px solid #bbbbbb;
   border-bottom: 2px solid #bbbbbb;
 }
+
+.d-block {
+  height: 350px;
+}
