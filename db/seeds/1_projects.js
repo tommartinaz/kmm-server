@@ -62,7 +62,17 @@ exports.seed = function(knex, Promise) {
 
         {id: uuidv4(), client_name: 'Kathryn Mitchell', company: 'K Mitchell Media', project_name: 'KMM About Us Anima SEO 3', published: 'Sept 2017', length: '0:40', vimeo_id: '232291904', description: '', c1: 'All', c2: 'Social Media', c3: ''},
 
-        {id: uuidv4(), client_name: 'George Parker', company: 'The Creation Game', project_name: 'Big Day of Creativity', published: 'June 2017', length: '1:23', vimeo_id: '221546547', description: '', c1: 'All', c2: 'DIY', c3: ''}
+        {id: uuidv4(), client_name: 'George Parker', company: 'The Creation Game', project_name: 'Big Day of Creativity', published: 'June 2017', length: '1:23', vimeo_id: '221546547', description: '', c1: 'All', c2: 'DIY', c3: ''},
+
+        {id: uuidv4(), client_name: 'Bryce Kuhlman', company: 'Bryce Kuhlman Inc.', project_name: 'Eric Testimonial for Bryce', published: 'June 2017', length: '6:01', vimeo_id: '217775359', description: '', c1: 'All', c2: 'Testimonal', c3: 'About'},
+        
+        {id: uuidv4(), client_name: 'Bryce Kuhlman', company: 'Bryce Kuhlman Inc.', project_name: 'George Testimonial for Bryce', published: 'June 2017', length: '6:17', vimeo_id: '217775360', description: '', c1: 'All', c2: 'Testimonial', c3: 'About'},
+        
+        {id: uuidv4(), client_name: 'Kathryn Mitchell', company: 'K Mitchell Media', project_name: 'Akanksha Testimonial for Kathryn', published: 'June 2017', length: '4:17', vimeo_id: '216947494', description: '', c1: 'All', c2: 'Testimonial', c3: 'About'},
+        
+        {id: uuidv4(), client_name: 'Kenton Knepper', company: 'Wonder Wizards', project_name: "Knepper 'Surprise Flowers' Newsletter Film Clip", published: 'June 2016', length: '0:13', vimeo_id: '213195148', description: '', c1: 'All', c2: 'Social Media', c3: 'Audition/Talent'},
+        
+        {id: uuidv4(), client_name: 'Kenton Knepper', company: 'Wonder Wizards', project_name: "Knepper 'Off By One' Newsletter Film Clip", published: 'June 2016', length: '0:49', vimeo_id: '212711704', description: '', c1: 'All', c2: 'Social Media', c3: 'About/Talent'}
 
       ]);
     });
