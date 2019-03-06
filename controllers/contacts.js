@@ -77,7 +77,7 @@ module.exports = {
         phone,
         client_status,
         message,
-        followUp_date: client_status === 'New Client' ? moment(new Date()).add(7, 'days') : moment(new Date())
+        followUp_date: client_status === 'New Client' ? moment(new Date()).add(14, 'days') : moment(new Date())
       }, "*")
       .then(() => {
         const msg = {
