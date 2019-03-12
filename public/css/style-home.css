@@ -1,5 +1,5 @@
 .container-header {
-  background-image: url("../images/headers/KMM\ Header\ Home.jpg");
+  background-image: url("../images/headers/KMM\ Header\ Homepage.jpg");
   background-size: cover;
   height: 500px;
 }
@@ -47,8 +47,16 @@
   font-size: 32px;
   margin-top: 10px;
 }
+.section__image {
+  margin-bottom: 75px;
+}
+
+.section__image--pic {
+  height: 500px;
+}
 
 .section-title {
+  display: inline-block;
   margin-bottom: 20px;
 }
 
