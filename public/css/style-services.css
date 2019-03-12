@@ -1,57 +1,102 @@
+html {
+  font-family: 'Open Sans';
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
 .container-header {
   background-image: url("../images/headers/KMM\ Header\ Services\ and\ Testimonials.JPG");
   background-size: cover;
-  height: 500px;
-  margin-bottom: 25px;
+  height: 50rem;
+  margin-bottom: 2.5rem;
 }
 
 .header-title-container {
   display: flex;
   justify-content: left;
-  padding-left: 30px;
+  padding-left: 3rem;
 }
 
 .header-title {
-  margin-top: 150px;
+  margin-top: 15rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 
 .header-text-container {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding-left: 30px;
+  padding-left: 3rem;
 }
 
 .header-text {
-  font-size: 20px;
+  font-size: 2rem;
   color: white;
 }
 
 .btn-hero-container {
   display: flex;
   justify-content: start;
-  padding-left: 30px;
+  padding-left: 3rem;
 }
 
 .btn-hero-item {
   background-color: #3e7686;
   border: 1px solid #26606d;
-  width: 200px;
+  width: 20rem;
 }
 
 .send-msg-icon {
-  padding-right: 10px;
+  padding-right: 1rem;
 }
 
 .service-item {
   border: 0 !important;
 }
 
-.svc-icon {
-  color: #eb37cb;
-  flex-direction: column;
-  justify-content: center;
-  align-self: start;
+.kmm-testimonials {
+  background-color: #cccccc;
+}
+
+.kmm__services-header--text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: #555555;
+}
+
+.kmm-testimonials__header {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 5rem;
+  margin: -2rem 0 2rem 0;
+}
+
+.card__icon {
+  margin-top: 2rem;
+}
+
+.card__image {
+  width: 6rem;
+  height: 5rem;
+}
+
+.card__content--heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+  color: #222222;
+}
+
+.card__content--text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: #555555;
 }
 
 .btn-inquire:hover {
@@ -59,6 +104,17 @@
   border: 1px solid #333333;
 }
 
+.carousel__item {
+  width: 80%;
+  padding-bottom: 4rem;
+}
+
+.carousel__item-text {
+  font-family: 'Open Sans' !important;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
 
 /* FOOTER STYLING */
 .card-footer-style {
