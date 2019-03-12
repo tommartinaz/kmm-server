@@ -81,7 +81,7 @@ module.exports = {
       }, "*")
       .then(() => {
         const msg = {
-          to: 't.martin49@gmail.com',
+          to: 'kmitchellmedia@gmail.com',
           from: email,
           subject: 'New contact registered',
           text: `
