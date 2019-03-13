@@ -1,0 +1,25 @@
+.header-title-container {
+    display: flex;
+    justify-content: left;
+    padding-left: 3rem;
+}
+
+.header-title {
+    margin-top: 15rem;
+    font-size: 5.6rem;
+    line-height: 6.7rem;
+    font-weight: 400;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 3rem;
+}
+
+.header-text {
+    font-size: 2rem;
+    color: $color_white;
+}
+

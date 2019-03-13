@@ -1,0 +1,41 @@
+.btn {
+    &-hero {
+        &-container {
+            display: flex;
+            justify-content: start;
+            padding-left: 3rem;
+        }
+
+        &-item {
+            background-color: $color_hero_button_background;
+            border: 1px solid $color_hero_button_border;
+            width: 20rem;
+        }
+    }
+
+    &-faq-contact {
+        &-container {
+            display: flex;
+            justify-content: start;
+            padding-left: 30px;
+        }
+
+        &-item {
+            background-color: $color_hero_button_background;
+            border: 1px solid $color_hero_button_border;
+        }
+    }
+
+    &-form-submit {
+        background-color: $color_gray-3 !important;
+        margin-top: 2rem;
+        width: 20rem;
+
+        &:hover {
+            background-color: lightgreen !important;
+            margin-top: 2rem;
+            width: 20rem;
+        }
+    }
+
+}

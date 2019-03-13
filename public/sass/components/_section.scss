@@ -1,0 +1,11 @@
+.section {
+    &__description {
+        &-title {
+            font-size: 5.6rem;
+            line-height: 6.7rem;
+        }
+        &-text {
+            font-size: 1.6rem;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.container-footer {
+  background-color: $color_gray-1;
+}
+.footer-style {
+  background-color: $color_gray-1;
+  border-top: 1px solid $color_gray-2;
+}
+
+.card-footer-style {
+  width: 100%;
+  background-color: $color_white;
+}
+
+
+.facebook,
+.twitter,
+.vimeo,
+.instagram {
+  color: $color_social_media;
+}
+
+.footer-legalline {
+  background-color: $color_gray-3;
+  border-top: 2px solid $color_gray-2;
+  border-bottom: 2px solid $color_gray-2;
+}

@@ -1,0 +1,46 @@
+.container {
+    &-header {
+        background-size: cover;
+        height: 50rem;
+        &-home {
+            background-image: url("../images/headers/KMM\ Header\ Homepage.jpg")
+        }
+        &-about {
+            background-image: url("../images/headers/KMM\ Header\ About\ Us.png");
+        }
+
+        &-contact {
+            background-image: url("../images/headers/KMM\ Header\ Contact\ Us.jpg");
+        }
+    }
+    &-radioBtns {
+        border: 1px solid #cccccc;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 5px;
+        height: 38px;
+        margin-top: 32px;      
+    }
+
+    &-faq {
+        margin-bottom: 5rem;
+    }
+
+    &__company {
+        display: flex;
+        align-items: center;
+        &-description {
+            margin: 3.5rem 0 7.5rem 0;
+            padding-right: 1.5rem;
+            
+            &--text {
+                flex-direction: column;
+                padding-right: 1rem;
+                border-radius: .5rem;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: $color_social_media
+            }
+        }
+    }
+}

@@ -1,0 +1,151 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.6rem !important;
+  line-height: 1.7rem; }
+
+.btn-hero-container {
+  display: flex;
+  justify-content: start;
+  padding-left: 3rem; }
+
+.btn-hero-item {
+  background-color: #3e7686;
+  border: 1px solid #26606d;
+  width: 20rem; }
+
+.btn-faq-contact-container {
+  display: flex;
+  justify-content: start;
+  padding-left: 30px; }
+
+.btn-faq-contact-item {
+  background-color: #3e7686;
+  border: 1px solid #26606d; }
+
+.btn-form-submit {
+  background-color: #cccccc !important;
+  margin-top: 2rem;
+  width: 20rem; }
+  .btn-form-submit:hover {
+    background-color: lightgreen !important;
+    margin-top: 2rem;
+    width: 20rem; }
+
+.card-header {
+  background-color: #cccccc; }
+
+.container-header {
+  background-size: cover;
+  height: 50rem; }
+  .container-header-home {
+    background-image: url("../images/headers/KMM Header Homepage.jpg"); }
+  .container-header-about {
+    background-image: url("../images/headers/KMM Header About Us.png"); }
+  .container-header-contact {
+    background-image: url("../images/headers/KMM Header Contact Us.jpg"); }
+
+.container-radioBtns {
+  border: 1px solid #cccccc;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  height: 38px;
+  margin-top: 32px; }
+
+.container-faq {
+  margin-bottom: 5rem; }
+
+.container__company {
+  display: flex;
+  align-items: center; }
+  .container__company-description {
+    margin: 3.5rem 0 7.5rem 0;
+    padding-right: 1.5rem; }
+    .container__company-description--text {
+      flex-direction: column;
+      padding-right: 1rem;
+      border-radius: .5rem;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: #212529; }
+
+.faq-btn-style {
+  width: 100%;
+  text-align: left;
+  font-size: 2.2rem;
+  background-color: #eeeeee; }
+
+.section__description-title {
+  font-size: 5.6rem;
+  line-height: 6.7rem; }
+
+.section__description-text {
+  font-size: 1.6rem; }
+
+.title-faq {
+  margin-bottom: 5rem; }
+
+.container-footer {
+  background-color: #dddddd; }
+
+.footer-style {
+  background-color: #dddddd;
+  border-top: 1px solid #bbbbbb; }
+
+.card-footer-style {
+  width: 100%;
+  background-color: #ffffff; }
+
+.facebook,
+.twitter,
+.vimeo,
+.instagram {
+  color: #212529; }
+
+.footer-legalline {
+  background-color: #cccccc;
+  border-top: 2px solid #bbbbbb;
+  border-bottom: 2px solid #bbbbbb; }
+
+.header-title-container {
+  display: flex;
+  justify-content: left;
+  padding-left: 3rem; }
+
+.header-title {
+  margin-top: 15rem;
+  font-size: 5.6rem;
+  line-height: 6.7rem;
+  font-weight: 400; }
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 3rem; }
+
+.header-text {
+  font-size: 2rem;
+  color: #ffffff; }
+
+.kathryn-image-container {
+  padding: 0 !important; }
+
+.kathryn-bwImg-about {
+  max-width: 100%;
+  height: auto; }
+
+.about-katheryn-text {
+  padding-right: 1rem;
+  border-radius: .5rem;
+  flex-direction: column;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #212529; }
+
+.kathryn-video-section {
+  margin-top: 25px; }
